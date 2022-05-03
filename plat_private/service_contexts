@@ -1,0 +1,16 @@
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+# System Server Services
+
+# Other Services
+NvRAMAgent                              u:object_r:nvram_agent_service:s0
+memory_dumper                           u:object_r:mediaserver_service:s0
+imsa                                    u:object_r:radio_service:s0
+mwis                                    u:object_r:radio_service:s0
+mtkIms                                  u:object_r:radio_service:s0
+wfo                                     u:object_r:radio_service:s0
+GbaService                              u:object_r:radio_service:s0
+media.VTS                               u:object_r:vtservice_service:s0
+media.VTS.HiDL                          u:object_r:vtservice_hidl_service:s0

@@ -1,0 +1,31 @@
+# ==============================================
+# MTK Attribute declarations
+# ==============================================
+
+# Attribute that represents all mtk property types (except those with ctl_xxx prefix)
+attribute mtk_core_property_type;
+
+# attribute that represents all MTK IMS types. It should be used by AP side module only.
+attribute mtkimsapdomain;
+#
+# # attribute that represents all MTK IMS types. It should be used by MD side module only.
+attribute mtkimsmddomain;
+
+# DFPS HIDL
+attribute hal_dfps;
+attribute hal_dfps_client;
+attribute hal_dfps_server;
+
+# TEE
+attribute hal_tee_client;
+attribute hal_tee_server;
+attribute hal_tee;
+
+# PPL
+attribute mtk_hal_pplagent;
+attribute mtk_hal_pplagent_client;
+attribute mtk_hal_pplagent_server;
+
+attribute mtk_hal_netdagent;
+attribute mtk_hal_netdagent_client;
+attribute mtk_hal_netdagent_server;

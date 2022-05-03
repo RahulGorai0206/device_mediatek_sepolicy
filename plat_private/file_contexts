@@ -1,0 +1,16 @@
+#############################
+# Data files
+#
+
+/data/system_de/mdfilter(/.*)? u:object_r:mddb_filter_data_file:s0
+/data/debuglogger(/.*)? u:object_r:debuglog_data_file:s0
+/data/ramdump(/.*)? u:object_r:debuglog_data_file:s0
+
+# b/135474897
+/vendor/bin/hw/android\.hardware\.gatekeeper@1\.0-service.software    u:object_r:hal_gatekeeper_default_exec:s0
+
+/dev/ubi_ctrl u:object_r:mtd_device:s0
+/dev/ubi[_0-9]* u:object_r:mtd_device:s0
+/dev/block/mtd(.*)?     u:object_r:mtd_device:s0
+/dev/block/mntlblk(.*)?     u:object_r:mtd_device:s0
+/dev/mcupm(/.*)? u:object_r:mcupm_device:s0
